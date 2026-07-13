@@ -35,7 +35,7 @@
   "home": {
     "title": "AI営業ロールプレイ",
     "subtitle": "AIと対話しながら営業スキルを磨こう",
-    "description": "実際の営業シーンを模したAI対話で、安全な環境で営業スキルを向上させましょう。様々な業界・性格の顧客との商談を体験できます。",
+    "description": "実際の営業シーンを模したAI対話で、安全な環境で営業スキルを向上させましょう。様々な業界・性格の相手とのロールプレイを体験できます。",
     "startButton": "営業ロールプレイを開始",
     "audioAnalysisButton": "音声分析",
     "recentScenarios": "最近のシナリオ",
@@ -48,7 +48,7 @@
         "description": "新規開拓、契約更新、価格交渉など様々な営業シーンから選択"
       },
       "step2": {
-        "title": "商談実行",
+        "title": "ロールプレイ実行",
         "description": "AIキャラクターとのリアルタイム対話で営業スキルを実践"
       },
       "step3": {
@@ -67,7 +67,7 @@
       },
       "realtime": {
         "title": "リアルタイム評価",
-        "description": "怒りメーター、信頼度、商談進捗度をリアルタイムで表示"
+        "description": "怒りメーター、信頼度、進捗度をリアルタイムで表示"
       },
       "feedback": {
         "title": "個別フィードバック",
@@ -75,13 +75,13 @@
       },
       "audioAnalysis": {
         "title": "音声データ分析",
-        "description": "実際の商談音声をアップロードしてAI分析・評価を受けられます"
+        "description": "実際の音声をアップロードしてAI分析・評価を受けられます"
       }
     }
   },
   "audioAnalysis": {
     "title": "音声分析",
-    "description": "実際の商談音声データをアップロードして、選択したシナリオで分析を行います。",
+    "description": "実際の音声データをアップロードして、選択したシナリオで分析を行います。",
     "settings": "分析設定",
     "language": "言語設定",
     "selectScenario": "分析シナリオを選択",
@@ -154,7 +154,7 @@
     }
   },
   "conversation": {
-    "title": "商談シミュレーション",
+    "title": "ロールプレイ",
     "goalLabel": "目標",
     "objectivesLabel": "達成目標",
     "npcInfoLabel": "顧客情報",
@@ -167,8 +167,8 @@
     "confirmEnd": "セッションを終了しますか？",
     "endSessionYes": "はい、終了します",
     "endSessionNo": "いいえ、続けます",
-    "negotiationGoal": "商談ゴール",
-    "negotiationObjective": "商談目標",
+    "negotiationGoal": "ゴール",
+    "negotiationObjective": "目標",
     "slideTray": {
       "label": "提案資料スライド",
       "title": "提案資料",
@@ -200,7 +200,7 @@
       "npcResponseNote": "※ NPCの応答が音声で再生されます"
     },
     "npcRole": "{{role}}",
-    "endConversation": "商談終了",
+    "endConversation": "ロールプレイ終了",
     "npc": {
       "moreTraits": "+{{count}}"
     },
@@ -225,17 +225,17 @@
     "volumeLevel": "音量",
     "speechRate": "話速",
     "voiceType": "音声タイプ",
-    "startButton": "商談開始",
-    "startButtonNoRecording": "商談開始（録画なし）",
-    "startQuestion": "商談を開始しますか？",
+    "startButton": "ロールプレイ開始",
+    "startButtonNoRecording": "ロールプレイ開始（録画なし）",
+    "startQuestion": "ロールプレイを開始しますか？",
     "cameraInitializing": "カメラ初期化中...",
     "cameraInitializingMessage": "📹 カメラを初期化しています。しばらくお待ちください...",
-    "cameraAccessFailed": "⚠️ カメラへのアクセスに失敗しました。録画なしで商談を開始できます。",
-    "recordingDisabledMessage": "📹 ビデオ録画はオフです。録画なしで商談を開始します。",
+    "cameraAccessFailed": "⚠️ カメラへのアクセスに失敗しました。録画なしでロールプレイを開始できます。",
+    "recordingDisabledMessage": "📹 ビデオ録画はオフです。録画なしでロールプレイを開始します。",
     "realTimeEvaluation": "リアルタイム評価",
     "angerMeterConversation": "怒りメーター",
     "trustLevelConversation": "信頼度",
-    "progressLevelConversation": "商談進捗度",
+    "progressLevelConversation": "進捗度",
     "evaluationLabel": "評価",
     "voiceOutput": "音声出力",
     "npcVoicePlayback": "※NPCの応答が音声で再生されます",
@@ -257,20 +257,20 @@
       "recordingOn": "ビデオ録画 ON",
       "recordingOff": "ビデオ録画 OFF",
       "recordingNote": "※ 録画をオフにすると、カメラを使用せず、動画分析機能は利用できません",
-      "recordingLockedNote": "※ 録画設定は商談開始前のみ変更できます"
+      "recordingLockedNote": "※ 録画設定はロールプレイ開始前のみ変更できます"
     }
   },
   "metrics": {
     "realtimeEvaluation": "リアルタイム評価",
     "angerMeter": "怒りメーター",
     "trustLevel": "信頼度",
-    "progressLevel": "商談進捗度",
+    "progressLevel": "進捗度",
     "angerMeterMetric": "怒りメーター",
     "trustLevelMetric": "信頼度",
-    "progressLevelMetric": "商談進捗度",
+    "progressLevelMetric": "進捗度",
     "angerMeterTooltip": "高い値は顧客の不満や怒りを示します",
     "trustLevelTooltip": "高い値は顧客があなたを信頼していることを示します",
-    "progressLevelTooltip": "高い値は商談が進んでいることを示します",
+    "progressLevelTooltip": "高い値はロールプレイが進んでいることを示します",
     "analysis": "分析",
     "analysisResult": "分析結果",
     "angerLevel": "怒りレベル",
@@ -473,10 +473,10 @@
       "initialMetricsHelp": "シナリオ開始時の初期値を設定します（0〜10の範囲で設定可能）",
       "angerHelp": "NPCの怒りレベルの初期値（低いほど良い）",
       "trustHelp": "NPCの信頼度の初期値（高いほど良い）",
-      "progressHelp": "商談の進捗度の初期値（高いほど良い）",
+      "progressHelp": "進捗度の初期値（高いほど良い）",
       "angerLevelHelp": "NPCの怒りレベルの初期値を設定します（0-10、低いほど良い）",
       "trustLevelHelp": "NPCの信頼度の初期値を設定します（0-10、高いほど良い）",
-      "progressLevelHelp": "商談の進捗度の初期値を設定します（0-10、高いほど良い）",
+      "progressLevelHelp": "進捗度の初期値を設定します（0-10、高いほど良い）",
       "addObjective": "目標を追加",
       "addCriteria": "判定基準を追加",
       "newGoals": "新しいゴール",
@@ -678,7 +678,7 @@
     "title": "コンプライアンス",
     "report": "コンプライアンス違反レポート",
     "violationsTitle": "コンプライアンス違反",
-    "violationsDescription": "商談中に以下のコンプライアンス違反が検出されました。適切な表現を心がけましょう。",
+    "violationsDescription": "ロールプレイ中に以下のコンプライアンス違反が検出されました。適切な表現を心がけましょう。",
     "context": "検出された文脈",
     "severityHigh": "重大",
     "severityMedium": "警告",
@@ -689,10 +689,10 @@
     "noData": "このセッションにはコンプライアンス違反データがありません。",
     "explanationTitle": "コンプライアンス違反について",
     "explanation1": "コンプライアンス違反は、営業活動において法令や倫理規範に反する表現や行為を示します。違反を避けることで、顧客との信頼関係を構築し、リスクを最小限に抑えることができます。",
-    "explanation2": "上記のレポートを参考に、今後の商談での表現を改善していきましょう。特に「重大」レベルの違反は、法的リスクが高いため特に注意が必要です。",
+    "explanation2": "上記のレポートを参考に、今後のロールプレイでの表現を改善していきましょう。特に「重大」レベルの違反は、法的リスクが高いため特に注意が必要です。",
     "violations": {
       "topicViolation": "禁止トピック: {{topicName}}",
-      "prohibitedTopicDetected": "このトピックは商談で言及できません",
+      "prohibitedTopicDetected": "このトピックはロールプレイで言及できません",
       "contentFilter": "不適切なコンテンツ: {{filterType}}",
       "inappropriateContentDetected": "信頼度: {{confidence}}",
       "customWordDetected": "禁止語句の使用",
@@ -729,7 +729,7 @@
     "analysisInProgress": "分析を実行中...",
     "analysisCompleted": "分析が完了しました",
     "analysisError": "分析中にエラーが発生しました",
-    "sessionStats": "商談時間: {{duration}}分 | メッセージ数: {{count}}回",
+    "sessionStats": "ロールプレイ時間: {{duration}}分 | メッセージ数: {{count}}回",
     "feedback": "フィードバック",
     "sessionNotFound": "セッションが見つかりません",
     "performanceAnalysis": "パフォーマンス分析",
@@ -740,7 +740,7 @@
     "skillDetailedScore": "スキル詳細スコア",
     "conversationPartner": "対話相手",
     "sessionStatistics": "セッション統計",
-    "conversationTime": "商談時間",
+    "conversationTime": "ロールプレイ時間",
     "messageCount": "メッセージ数",
     "userMessages": "ユーザー発言",
     "conversationLog": "対話ログ",
