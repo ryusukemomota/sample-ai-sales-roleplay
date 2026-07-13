@@ -19,7 +19,7 @@
   "context": {
     "default": {
       "selfSignUpEnabled": true,
-      "allowedSignUpEmailDomains": null,
+      "allowedSignUpEmailDomains": ["okayama-u.ac.jp", "s.okayama-u.ac.jp"],
       "bedrockModels": {
         "conversation": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
         "scoring": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -40,7 +40,7 @@
     },
     "env:dev": {
       "selfSignUpEnabled": false,
-      "allowedSignUpEmailDomains": null,
+      "allowedSignUpEmailDomains": ["okayama-u.ac.jp", "s.okayama-u.ac.jp"],
       "bedrockModels": {
         "conversation": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
         "scoring": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -61,7 +61,7 @@
     },
     "env:staging": {
       "selfSignUpEnabled": true,
-      "allowedSignUpEmailDomains": null,
+      "allowedSignUpEmailDomains": ["okayama-u.ac.jp", "s.okayama-u.ac.jp"],
       "bedrockModels": {
         "conversation": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
         "scoring": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -82,7 +82,7 @@
     },
     "env:prod": {
       "selfSignUpEnabled": true,
-      "allowedSignUpEmailDomains": null,
+      "allowedSignUpEmailDomains": ["okayama-u.ac.jp", "s.okayama-u.ac.jp"],
       "bedrockModels": {
         "conversation": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
         "scoring": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
