@@ -96,7 +96,7 @@ export class AnalyticsService {
           tension: 0.2,
         },
         {
-          label: "商談進捗度",
+          label: "進捗度",
           data: progressData,
           borderColor: "rgb(75, 192, 192)",
           backgroundColor: "rgba(75, 192, 192, 0.2)",
@@ -139,11 +139,11 @@ export class AnalyticsService {
     // 進捗度に関する分析
     if (finalMetrics.progressLevel >= 7) {
       keyPoints.push(
-        "商談の進捗状況は良好です。クロージングに向けて準備を進めましょう。",
+        "進捗状況は良好です。クロージングに向けて準備を進めましょう。",
       );
     } else if (finalMetrics.progressLevel <= 3) {
       keyPoints.push(
-        "商談の進捗が遅れています。顧客が求める価値をより明確に提示することを検討しましょう。",
+        "進捗が遅れています。相手が求める価値をより明確に提示することを検討しましょう。",
       );
     }
 
